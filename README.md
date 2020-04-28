@@ -3,6 +3,7 @@ A simple php interface to work with EMS api endpoints.
 
 Sample use:
 
+```php
 <?php
 
 include("src/Ems.php");
@@ -31,3 +32,4 @@ $results = $EMS->_call($call);
 print_r($results);
 
 ?>
+```
