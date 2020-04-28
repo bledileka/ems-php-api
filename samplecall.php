@@ -1,8 +1,3 @@
-# ems_php_api
-A simple php interface to work with EMS api endpoints.
-
-Sample use:
-
 <?php
 
 include("src/Ems.php");
@@ -19,15 +14,14 @@ $EMS = new Ems(
 $call = [
 	"path" => "contacts/add",
 	"data" => [
-		"listid"		=> 1,
-		"first_name" 	=> "John",
-		"last_name" 	=> "Smith",
-		"email" 		=> "john@smith.com"
+		"listid"=>1,
+		"first_name" => "John",
+		"last_name" => "Smith",
+		"email" => "john@smith.com"
 	]
 ];
 
 $results = $EMS->_call($call);
-
 print_r($results);
 
 ?>
