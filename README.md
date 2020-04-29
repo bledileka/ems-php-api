@@ -1,4 +1,4 @@
-# ems_php_api
+# ems-php-api
 A simple php interface to work with EMS api endpoints.
 
 Sample use:
