@@ -2,6 +2,7 @@
 /*
  * Simple interface to make api calls to an EMS server.
  */
+
 namespace Bledileka\Emsender;
 
 class Apicall
