@@ -1,5 +1,5 @@
 {
-    "name": "bledileka/ems",
+    "name": "bledileka/ems_php_api",
     "description": "Simple interface to make api calls to an EMS server.",
     "type": "library",
     "license": "MIT",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Ems": "src/"
+            "bledileka\Ems": "src/"
         }
     }
 }

@@ -2,7 +2,7 @@
 /*
  * Simple interface to make api calls to an EMS server.
  */
-namespace Ems;
+namespace bledileka\Ems;
 
 class Ems
 {
