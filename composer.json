@@ -1,5 +1,5 @@
 {
-    "name": "bledileka/ems_php_api",
+    "name": "bledileka/ems-php-api",
     "description": "Simple interface to make api calls to an EMS server.",
     "type": "library",
     "license": "MIT",
