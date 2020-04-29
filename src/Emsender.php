@@ -2,9 +2,9 @@
 /*
  * Simple interface to make api calls to an EMS server.
  */
-namespace bledileka\Ems;
+namespace Bledileka\Emsender;
 
-class Ems
+class Apicall
 {
 	public function __construct($configs)
 	{

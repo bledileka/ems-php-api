@@ -6,7 +6,7 @@ Sample use:
 ```php
 <?php
 
-include("src/Ems.php");
+include("src/Emsender.php");
 /* initialize the ems class with main configs */
 
 $EMS = new Ems(
