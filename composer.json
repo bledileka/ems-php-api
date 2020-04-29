@@ -1,0 +1,21 @@
+{
+    "name": "bledileka/ems",
+    "description": "Simple interface to make api calls to an EMS server.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bledar Leka",
+            "email": "leka.al@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ems": "src/"
+        }
+    }
+}
